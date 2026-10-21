@@ -1,0 +1,5 @@
+numbers=(2,3,4,6,9)
+result=tuple(filter(lambda x: x%2==0,numbers) )
+print(result)
+square=tuple(map(lambda x:x*2,numbers))
+print(square)
